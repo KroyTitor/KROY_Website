@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+
+#content {
+    padding: 18px;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex: 1;
+    overflow: scroll;
+}
+
+.column1, .column2 {
+    width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+    .column1, .column2 {
+        width: 33.3%;
+    }
+}
+
+.IMGindex {
+    overflow: scroll;
+    max-width: 500px; min-width: 100px;
+}
