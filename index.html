@@ -5,29 +5,48 @@
         <meta charset="utf-8">
         <meta name="description" content="KROY artist page">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="style3.css" type="text/css" rel="stylesheet">
+        <link href="css/style.css" type="text/css" rel="stylesheet">
     </head>
 
     <body>
 
-        <div id="header">
+        <header>
             <h1 class="headerIndex">KROY</h1>
-        </div>    
-        <div id="nav">
-            <ul>
-                <li><a href="index.html" class="menu">HOME</a></li>
-                <li><a href="music.html" class="menu">Music</a></li>
-                <li><a href="photos.html" class="menu">Visual</a></li>
-                <li><a href="contact.html" class="menu">Contact</a></br></li>
-            </ul>
-        </div>
+            <nav class="container">
+                <ul>
+                    <li><a href="index.html" class="menu">HOME</a></li>
+                    <li><a href="music.html" class="menu">Music</a></li>
+                    <li><a href="photos.html" class="menu">Visual</a></li>
+                    <li><a href="contact.html" class="menu">Contact</a></br></li>
+                </ul>
+            </nav>
+        </header>    
+        <section class="container flex-row">
+            <div class="left">
+                <h2 class="leftH2">Upcoming events</h2>
+                <ul>
+                    <li>S2 Mall Of Scandinavia</li>
+                    <li>"Stranger" Album release</li>
+                    <li>House party</li>
+                </ul>
+            </div>
+
+            <div class="right">
+                <h2 class="rightH2">Recent events</h2>
+                <ul>
+                    <li>East DJ set</li>
+                    <li>BNK "Memories From 22" Album release</li>
+                    <li>Anders&Jag DJ set</li>
+                </ul>
+            </div>
+        </section>
         <div id="content">
             <div id="feature1">
                 <h1>Feature</h1>
             </div>    
             <img class="IMGindex" src="IMG/2.JPG" alt="promoPic">
             <div class="article column1">
-                <p>Producer, visual artist and DJ based in Stockholm.</p>
+                <p class="mainP">Producer, visual artist and DJ based in Stockholm.</p>
             </div>
             <div id="feature2">
                 <h1>Feature 2</h1>
@@ -35,7 +54,7 @@
             <h2 class="headerVideo">DJ mix</h2>
             <iframe width="707" height="398" src="https://www.youtube.com/embed/28Vj1PX3_no" title="DJ set 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             <div class="article column2">
-                <p>For bookings, collabs and other inqueries go to contact page.</p>
+                <p class="mainP">For bookings, collabs and other inqueries go to contact page.</p>
             </div>
             <script src="java.js"></script> 
         </div>
